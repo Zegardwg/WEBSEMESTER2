@@ -1,0 +1,85 @@
+:root{
+    --pr-color : black;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color:#fff;
+}
+
+.nav-link{
+    font-size: 17px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover{
+    background-color: #f0f0f0;
+    color: #333; 
+    text-decoration: none; 
+    border-radius: 20px;
+}
+.button-secondery{
+    width: 120px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-style: 700;
+    border-radius: 20px;
+}
+
+.btn-primary{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-style: 700;
+    border-radius: 20px;
+}
+.heading {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.heading span {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.heading h1 {
+    font-size: 2rem;
+}
+.kendaraan-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .box {
+    flex-basis: 30%; 
+    margin: 20px; 
+    text-align: center; 
+    margin-top: 50px;
+  }  
+  .box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .box h2 {
+    font-weight: bold; 
+    margin-bottom: 10px; 
+  }
+  
+  .box p {
+    font-size: 16px; 
+  }
+
+.banner-fluid{
+    background: url(/aset/sec_jadwal.png);
+}
