@@ -32,17 +32,16 @@
             <ul class="navbar-nav mx-auto">
               <!-- <li class="nav-item"> -->
               <a class="nav-link active" aria-current="page" href="#home">Beranda</a>
-              <a class="nav-link "  href="#about">About</a>
               <a class="nav-link "  href="#order">Cara Order</a>
               <a class="nav-link "  href="#jadwal">Jadwal</a>
               <a class="nav-link "  href="#layanan">Layanan</a>
-              <a class="nav-link "  href="#">Tentang Kami</a>
+              <a class="nav-link "  href="#about">Tentang Kami</a>
 
             </div>
             <div>
             <div class="auth-links">
-                <a href="login.php" class="Daftar">Daftar</a>
-                <a href="register.php" class="Masuk">Masuk</a>
+                <a href="login.php" class="Daftar">Login</a>
+                <a href="register.php" class="Masuk">Register</a>
                 <style>
                 .auth-links {
                   text-align: center;
@@ -53,7 +52,7 @@
                   display: inline-block;
                   margin: 0 10px;
                   padding: 10px 20px;
-                  border-radius: 5px;
+                  border-radius: 20px;
                   background-color: #007bff;
                   color: #fff;
                   text-decoration: none;
@@ -80,43 +79,7 @@
       }
       </style>
       </section>
-          <!-- About Section -->
-                  <section class="about" id="about">
-                <div class="container">
-                    <div class="row justify-content-center mb-5 pb-5">
-                        <div class="col-md-7 heading-section text-center">
-                            <br><span class="subheading">About</span>
-                            <h2 class="mb-4">TRANS BUS MADIUN</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-7 col-md-12 col-sm-12">
-                            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/radarmadiun/2021/11/caruban-terminal-sepi-WEB_.jpg" class="rounded img-fluid d-block mx-auto" alt="App">
-                        </div>
-                        <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
-                            <div class="left-heading">
-                                <h5>Trans Bus Madiun</h5>
-                            </div>
-                            <div class="left-text">
-                                <p>Merupakan salah satu sistem transportasi publik yang beroperasi di kota Madiun, Jawa Timur. Mereka menyediakan layanan bus reguler yang menghubungkan berbagai lokasi penting di dalam kota, memfasilitasi mobilitas penduduk setempat serta pengunjung. Dengan jadwal yang teratur, TRANS BUS MADIUN memberikan alternatif transportasi yang handal dan terjangkau bagi masyarakat. Dengan demikian, mereka berperan penting dalam mendukung konektivitas dan aksesibilitas kota Madiun.</p>
-                                <a href="about.php" class="btn btn-warning">View More <iconify-icon icon="ion:arrow-forward-circle-outline"></iconify-icon></a>
-                            </div>
-                        </div>
-                               <!-- Marquee Section -->
-        <div class="marquee">
-            <h6></h6>
-            <br>
-            <br>
-            <marquee behavior="" direction="">
-                Selamat datang di website Bus Trans Madiun. Pesan tiket kereta api online dengan harga spesial, jadwal lengkap, dan mitra resmi Bus TRANS. Transaksi mudah dan aman dengan berbagai pilihan pembayaran.
-            </marquee>
-            </div>
-        </div>
-        <!-- End of Marquee Section -->
-                    </div>
-                </div>
-            </section>
-            <!-- End of About Section -->
+
 
       <!--section 2-->
   <br>
@@ -151,7 +114,7 @@
        </section>
 
 
-      <!--Section Jadwal-->
+        <!--Section Jadwal-->
       <section class="jadwal " id="jadwal">
         <!--<img src="assets/images/sec_jadwal.png" class="img-fluid" alt="">-->
         <div class="container-fluid banner-fluid" >
@@ -256,8 +219,140 @@
           </div>
         </section>
 
-        // SECTION 4 
+        <!-- end section-->
+
+        <!-- Carousel Section -->
+        <section class="carousel">
+          <br>
+          <br>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/radarmadiun/2022/10/Tekan-Laka-Lantas-Pelajar-Pemkot-Madiun-Tambah-Dua-Unit-Armada-Bus-Sekolah-.jpeg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://asset.kompas.com/crops/l3ktsjNdF4tm3aGs_b_XZOYCHWs=/0x30:1280x883/750x500/data/photo/2022/05/27/628fb3633b9fb.jpeg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://live.staticflickr.com/5477/9395435759_08ce8b4bc4_b.jpg" class="d-block w-100" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </br>
+    </br>
+        </section>
+        <style>
+.carousel {
+  position: relative;
+  width: 85%;
+  height: 85vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carousel-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+.carousel-control-prev {
+  left: 20px;
+}
+
+.carousel-control-next {
+  right: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+            </style>
+        <!-- End of Carousel Section -->
+
+          <!-- About Section -->
+                  <section class="about" id="about">
+                    <br>
+                    <br>
+                    <!-- About Section -->
+                <div class="container">
+                    <div class="row justify-content-center mb-5 pb-5">
+                        <div class="col-md-7 heading-section text-center">
+                            <br><span class="subheading">About</span>
+                            <h2 class="mb-4">TRANS BUS MADIUN</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7 col-md-12 col-sm-12">
+                            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/radarmadiun/2021/11/caruban-terminal-sepi-WEB_.jpg" class="rounded img-fluid d-block mx-auto" alt="App">
+                        </div>
+                        <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
+                            <div class="left-heading">
+                                <h5>Trans Bus Madiun</h5>
+                            </div>
+                            <div class="left-text">
+                                <p>Merupakan salah satu sistem transportasi publik yang beroperasi di kota Madiun, Jawa Timur. Mereka menyediakan layanan bus reguler yang menghubungkan berbagai lokasi penting di dalam kota, memfasilitasi mobilitas penduduk setempat serta pengunjung. Dengan jadwal yang teratur, TRANS BUS MADIUN memberikan alternatif transportasi yang handal dan terjangkau bagi masyarakat. Dengan demikian, mereka berperan penting dalam mendukung konektivitas dan aksesibilitas kota Madiun.</p>
+                                <a href="about.php" class="btn btn-warning">View More <iconify-icon icon="ion:arrow-forward-circle-outline"></iconify-icon></a>
+                            </div>
+                        </div>
+            
+        <!--section layanan-->
         <section id="layanan">
+          <br>
+            <br>
                   <div class="swiper-form-wrap">
           <!-- Swiper-->
           <div class="swiper-container swiper-slider swiper-slider_height-2 swiper-align-left swiper-align-left-custom context-dark bg-grey-darker" data-loop="false" data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
@@ -323,25 +418,34 @@
                       <div class="col-lg-6">
                         <label class="form-label-outside">Waktu Berangkat</label>
                         <div class="form-wrap form-wrap-modern">
-                          <input class="form-input input-append" id="form-element-stepper" type="date" min="1" max="300" value="0" name="dewasa">
-                        </div>
-                      </div>
-                      <div class="col-lg-6">
-                        <label class="form-label-outside">Nama Siswa</label>
-                        <div class="form-wrap form-wrap-modern">
-                          <input class="form-input input-append" id="form-element-stepper-1" type="number" min="0" max="300" value="0" name="anak">
-                        </div>
-                      </div>
-                      <div class="col-lg-6">
-                        <label class="form-label-outside">Asal Sekolah</label>
-                        <div class="form-wrap form-wrap-modern">
-                          <input class="form-input input-append" id="form-element-stepper-1" type="number" min="0" max="300" value="0" name="anak">
+                          <input class="form-input input-append" id="form-element-stepper" type="time" min="1" max="300" value="0" name="dewasa">
                         </div>
                       </div>
                     </div>
-                    <div class="form-wrap form-button">
-                     <button class="button button-block button-secondary" type="submit" value="submit" name="submit">Order Bus</button>
-                    </div>
+                    <div class="auth-links">
+                <a href="#" class="Cari">Cari</a>
+                <style>
+                .auth-links {
+                  text-align: center;
+                  margin: 20px 0;
+                }
+
+                .auth-links a {
+                  display: inline-block;
+                  margin: 0 10px;
+                  padding: 10px 20px;
+                  border-radius: 20px;
+                  background-color: #007bff;
+                  color: #fff;
+                  text-decoration: none;
+                }
+
+                .auth-links a:hover {
+                  background-color: #0056b3;
+                }
+                   </style>
+                       </div>
+                   
                   </form>
                 </div>
               </div>
@@ -350,7 +454,21 @@
         </div>
         </section>
 
-      //section 5
+      <!--end section-->
+
+      <!-- Marquee Section -->
+      <div class="marquee">
+            <h6></h6>
+            <br>
+            <br>
+            <marquee behavior="" direction="">
+                Selamat datang di website Bus Trans Madiun. Pesan tiket kereta api online dengan harga spesial, jadwal lengkap, dan mitra resmi Bus TRANS. Transaksi mudah dan aman dengan berbagai pilihan pembayaran.
+            </marquee>
+            </div>
+
+          </div>
+            </section>
+            <!-- End of About Section -->
 
         <style>
 .form-request-wrap-modern {

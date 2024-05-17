@@ -38,7 +38,7 @@ $background_image = "assets/images/sec_jadwal.png";
   </div>
   <!-- /.login-logo -->
   <div class="register-box-body">
-    <p class="login-box-msg">Register a new membership</p>
+    <p class="login-box-msg">Belum mamiliki akun, Daftar Sekarang</p>
 
     <form action="index.html" method="post">
       <div class="form-group has-feedback">
@@ -81,7 +81,7 @@ $background_image = "assets/images/sec_jadwal.png";
         <div class="col-xs-8">
           <div class="checkbox icheck">
             <label>
-              <input type="checkbox"> I agree to the <a href="#">terms</a>
+              <input type="checkbox"> Dengan mendaftar, saya setuju dengan <a href="#">Syarat dan ketentuan</a>
             </label>
           </div>
         </div>
@@ -92,8 +92,6 @@ $background_image = "assets/images/sec_jadwal.png";
         <!-- /.col -->
       </div>
     </form>
-
-    <a href="login.html" class="text-center">I already have a membership</a>
   </div>
   <!-- /.login-box-body -->
 </div>
