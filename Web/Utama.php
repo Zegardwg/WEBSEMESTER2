@@ -23,10 +23,10 @@
   </head>
   <body id="home">
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100">
+    <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100" style="background-color: #ffffff;">
         <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo1.png" class="brand-transparent my-0" alt="" width="150" height="120">
+          <a class="navbar-brand" href="utama.php">
+            <img src="assets/images/logo1.png" class="brand-transparent my-0" alt="" width="90" height="1400">
           </a>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
@@ -43,25 +43,33 @@
                 <a href="login.php" class="Daftar">Login</a>
                 <a href="register.php" class="Masuk">Register</a>
                 <style>
-                .auth-links {
-                  text-align: center;
-                  margin: 20px 0;
-                }
-
-                .auth-links a {
-                  display: inline-block;
-                  margin: 0 10px;
-                  padding: 10px 20px;
-                  border-radius: 20px;
-                  background-color: #007bff;
-                  color: #fff;
-                  text-decoration: none;
-                }
-
-                .auth-links a:hover {
-                  background-color: #0056b3;
-                }
-            </style>
+        .navbar {
+            background-color: #ffffff;
+            padding: 5px 0; /* Kurangi padding untuk membuat navbar lebih tipis */
+        }
+        .navbar .navbar-brand img {
+            height: 50px; /* Kurangi tinggi logo agar navbar lebih tipis */
+        }
+        .navbar-nav .nav-link {
+            padding: 5px 10px; /* Kurangi padding pada link navbar */
+        }
+        .auth-links {
+            text-align: center;
+            margin: 10px 0; /* Kurangi margin untuk membuatnya lebih tipis */
+        }
+        .auth-links a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 5px 15px; /* Kurangi padding pada link auth */
+            border-radius: 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+        }
+        .auth-links a:hover {
+            background-color: #0056b3;
+        }
+    </style>
             </div>
           </div>
         </div>
@@ -79,6 +87,26 @@
       }
       </style>
       </section>
+
+       <!-- Marquee Section -->
+      <div class="marquee">
+            <h6></h6>
+            <br>
+            <br>
+            <marquee behavior="" direction="">
+            Selamat Datang di Bus Trans Madiun! Solusi Aman dan Nyaman Antar Anak ke Sekolah Setiap Pagi!            </marquee>
+            </div>
+            <style>
+            .marquee {
+              font-weight: bold;
+              padding: 10px; 
+            }
+            .marquee marquee {
+               display: block; 
+            }
+          </style>
+          </div>
+
 
 
       <!--section 2-->
@@ -107,8 +135,8 @@
 
             <div class="box">
               <img src="assets/images/bc .png" style="width: 50px;" alt="">
-                <h2>Ambil Kode </h2>
-                <p>Simpan kode unik untuk mendapatkan tempat duduk</p>
+                <h2>Ambil Barcode </h2>
+                <p>Simpan Barcode unik untuk mendapatkan tempat duduk</p>
             </div>
         </div>
        </section>
@@ -226,13 +254,13 @@
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active">
-          <img src="#" class="d-block w-100" alt="Gambar1">
+          <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/radarmadiun/2021/11/caruban-terminal-sepi-WEB_.jpg" class="d-block w-100" alt="Gambar1">
         </div>
         <div class="carousel-item">
-          <img src="#" class="d-block w-100" alt="Gambar 2">
+          <img src="https://madiuntoday.id/menu/file/eyJpdiI6IlRxL0R0UXVhVGtDYkZOeEJsSGtmeXc9PSIsInZhbHVlIjoiTFIxYVZDRlowZXhaOUJmMTJ6MlRsU1RGdktMOUV5dFdKdFhobG1XRHZDa3dId2hDVVE0Mmw0aUhHNWd4ekFjbFl3QXVCQ201Wm1ONUpPd0F4NStjckl1a1dJVTlJQ2s0bEFDMTRFVFNNR3dYODBQTGZSZFdORy9kcVd6NGVzNngiLCJtYWMiOiIzNDFiOGRhZDg2NzYwMGM3NDI0MDUzMTE3YjA2NmVkMzY3ZTMwNGU5YzZkYTFhYTljZGEzZjMzODgzYzcyM2Y2IiwidGFnIjoiIn0=" class="d-block w-100" alt="Gambar 2">
         </div>
           <div class="carousel-item">
-          <img src="#" class="d-block w-100" alt="Gambar 3">
+          <img src="https://madiuntoday.id/menu/file/eyJpdiI6IlVpT0VFQnB6Qi8vOHhycEIzSWlpSmc9PSIsInZhbHVlIjoiVU1VYUNlWUtlSjE3Uk5IUVNkL3FDQnlpNzBGSTU4VWs3N2VYOUo4UUhmdDdwdmxRUmxwZWRqMjlsWEZWakQyVlBsT1F4Zk5Db3MxUG82aXhLWTRJeU1VRDQ3Z1ByUjU0M01GVzhYQWJJTHZRTjFBamZCNEIzeVdMY0hxTGtQOFkiLCJtYWMiOiI3NzBhMjRhN2E2M2ZjZGNlZTNmZjdkYjQxNjkzY2QwNDdkYzljZmZlOTA0ZGQ0ZGNlZDkyYjJjOWQyMTc4ZDIwIiwidGFnIjoiIn0=" class="d-block w-100" alt="Gambar 3">
           </div>
         </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -244,6 +272,19 @@
               <span class="visually-hidden">Next</span>
            </button>
         </div>
+        <style>
+         .carousel-item img {
+           width: 80%;
+           height: 800px; /* Anda dapat menyesuaikan tinggi sesuai kebutuhan */
+           object-fit: cover; /* Gambar akan dipotong untuk mengisi container tanpa mengubah rasio aspek */
+           object-fit: cover; /* Gambar akan dipotong untuk mengisi container tanpa mengubah rasio aspek */
+           margin: 0 auto; /* Memusatkan gambar */
+         }
+       </style>
+       
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
         <!--end carosel section-->
 
 
@@ -377,22 +418,13 @@
                             </div>
                         </div>
             
-      <!-- Marquee Section -->
-      <div class="marquee">
-            <h6></h6>
-            <br>
-            <br>
-            <marquee behavior="" direction="">
-                Selamat datang di website Bus Trans Madiun. Pesan tiket kereta api online dengan harga spesial, jadwal lengkap, dan mitra resmi Bus TRANS. Transaksi mudah dan aman dengan berbagai pilihan pembayaran.
-            </marquee>
-            </div>
-
-          </div>
+   
             </section>
             <!-- End of About Section -->
 
 
-        
+          <br>
+          <br>
           <!--start footer-->
           
           <footer>
