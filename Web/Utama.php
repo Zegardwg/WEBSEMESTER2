@@ -70,10 +70,10 @@
       <!--section 1-->
       <body id="Beranda">
       <section id="hero">
-       <img src="assets/images/bc1.png" class="img-fluid" alt="">
+       <img src="assets/images/bg.jpeg" class="img-fluid" alt="">
        <style>
       #hero {
-      background-image: url('assets/images/bc1.png');
+      background-image: url('assets/images/bg.jpeg');
       background-size: 100% 100%;
       background-position: center center;
       }
@@ -221,136 +221,34 @@
 
         <!-- end section-->
 
-        <!-- Carousel Section -->
-        <section class="carousel">
-          <br>
-          <br>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/radarmadiun/2022/10/Tekan-Laka-Lantas-Pelajar-Pemkot-Madiun-Tambah-Dua-Unit-Armada-Bus-Sekolah-.jpeg" class="d-block w-100" alt="">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://asset.kompas.com/crops/l3ktsjNdF4tm3aGs_b_XZOYCHWs=/0x30:1280x883/750x500/data/photo/2022/05/27/628fb3633b9fb.jpeg" class="d-block w-100" alt="">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://live.staticflickr.com/5477/9395435759_08ce8b4bc4_b.jpg" class="d-block w-100" alt="">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-    </br>
-    </br>
-        </section>
-        <style>
-.carousel {
-  position: relative;
-  width: 85%;
-  height: 85vh;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
-.carousel-item {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
+        <!--start carosel section-->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+          <img src="#" class="d-block w-100" alt="Gambar1">
+        </div>
+        <div class="carousel-item">
+          <img src="#" class="d-block w-100" alt="Gambar 2">
+        </div>
+          <div class="carousel-item">
+          <img src="#" class="d-block w-100" alt="Gambar 3">
+          </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+           </button>
+        </div>
+        <!--end carosel section-->
 
-.carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
-.carousel-control-prev,
-.carousel-control-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 50px;
-  height: 50px;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  text-align: center;
-  opacity: 0.5;
-  transition: opacity 0.3s ease;
-}
-
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-  opacity: 1;
-}
-
-.carousel-control-prev {
-  left: 20px;
-}
-
-.carousel-control-next {
-  right: 20px;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  width: 20px;
-  height: 20px;
-}
-
-.visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap;
-}
-            </style>
-        <!-- End of Carousel Section -->
-
-          <!-- About Section -->
-                  <section class="about" id="about">
-                    <br>
-                    <br>
-                    <!-- About Section -->
-                <div class="container">
-                    <div class="row justify-content-center mb-5 pb-5">
-                        <div class="col-md-7 heading-section text-center">
-                            <br><span class="subheading">About</span>
-                            <h2 class="mb-4">TRANS BUS MADIUN</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-7 col-md-12 col-sm-12">
-                            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/radarmadiun/2021/11/caruban-terminal-sepi-WEB_.jpg" class="rounded img-fluid d-block mx-auto" alt="App">
-                        </div>
-                        <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
-                            <div class="left-heading">
-                                <h5>Trans Bus Madiun</h5>
-                            </div>
-                            <div class="left-text">
-                                <p>Merupakan salah satu sistem transportasi publik yang beroperasi di kota Madiun, Jawa Timur. Mereka menyediakan layanan bus reguler yang menghubungkan berbagai lokasi penting di dalam kota, memfasilitasi mobilitas penduduk setempat serta pengunjung. Dengan jadwal yang teratur, TRANS BUS MADIUN memberikan alternatif transportasi yang handal dan terjangkau bagi masyarakat. Dengan demikian, mereka berperan penting dalam mendukung konektivitas dan aksesibilitas kota Madiun.</p>
-                                <a href="about.php" class="btn btn-warning">View More <iconify-icon icon="ion:arrow-forward-circle-outline"></iconify-icon></a>
-                            </div>
-                        </div>
-            
-        <!--section layanan-->
-        <section id="layanan">
+          <!--section layanan-->
+          <section id="layanan">
           <br>
             <br>
                   <div class="swiper-form-wrap">
@@ -456,6 +354,29 @@
 
       <!--end section-->
 
+
+      <!-- About Section -->
+                  <section class="about" id="about">
+                    <br>
+                    <br>
+                    <!-- About Section -->
+                <div class="container">
+                    <div class="row justify-content-center mb-5 pb-5">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-7 col-md-12 col-sm-12">
+                            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/radarmadiun/2021/11/caruban-terminal-sepi-WEB_.jpg" class="rounded img-fluid d-block mx-auto" alt="App">
+                        </div>
+                        <div class="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
+                            <div class="left-heading">
+                                <h5>Trans Bus Madiun</h5>
+                            </div>
+                            <div class="left-text">
+                                <p>Merupakan salah satu sistem transportasi publik yang beroperasi di kota Madiun, Jawa Timur. Mereka menyediakan layanan bus reguler yang menghubungkan berbagai lokasi penting di dalam kota, memfasilitasi mobilitas penduduk setempat serta pengunjung. Dengan jadwal yang teratur, TRANS BUS MADIUN memberikan alternatif transportasi yang handal dan terjangkau bagi masyarakat. Dengan demikian, mereka berperan penting dalam mendukung konektivitas dan aksesibilitas kota Madiun.</p>
+                                <a href="about.php" class="btn btn-warning">View More <iconify-icon icon="ion:arrow-forward-circle-outline"></iconify-icon></a>
+                            </div>
+                        </div>
+            
       <!-- Marquee Section -->
       <div class="marquee">
             <h6></h6>
@@ -469,6 +390,126 @@
           </div>
             </section>
             <!-- End of About Section -->
+
+
+        
+          <!--start footer-->
+          
+          <footer>
+
+<div class="container__footer">
+    <div class="box__footer">
+        <div class="terms">
+            <p>Trans Madiun Merupakan salah satu sistem transportasi publik yang beroperasi di kota Madiun, Jawa Timur.</p>
+      </div>
+    </div>
+    <div class="box__footer">
+        <h2>Sosial Media</h2>
+        <a href="https://www.facebook.com/"> <i class="fab fa-facebook-square"></i> Facebook</a>
+        <a href="https://twitter.com/login"><i class="fab fa-twitter-square"></i> Twitter</a>
+        <a href="https://www.tiktok.com"><i class="fab fa-tiktok"></i> Tiktok</a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i> Instagram</a>
+    </div>
+
+    <div class="box__footer">
+        <h2>Trans Madiun</h2>
+        <a href="#home">Beranda</a>
+        <a href="#order">Cara order</a>
+        <a href="#jadwal">Jadwal</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#about">Tentang Kami</a>              
+    </div>
+
+</div>
+
+<div class="box__copyright">
+    <hr>
+    <p>TransMadiun copyright @2024 <b>TransMadiun</b></p>
+</div>
+<style>
+  footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(assets/images/sec_jadwal.png);
+    background-size: cover;
+    
+    /*background-color: #d0f0f8;
+    -webkit-mask-image: url("../Images/background-footer.svg");
+    mask-image: url("../Images/background-footer.svg");
+    -webkit-mask-size: cover;
+    mask-size: cover;*/
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+    color :black;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+</style>
+</footer>
+
+
+          <!--start footer-->
 
         <style>
 .form-request-wrap-modern {
