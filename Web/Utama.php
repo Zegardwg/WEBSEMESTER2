@@ -413,7 +413,7 @@
                                 <h5>Trans Bus Madiun</h5>
                             </div>
                             <div class="left-text">
-                                <p>Merupakan salah satu sistem transportasi publik yang beroperasi di kota Madiun, Jawa Timur. Mereka menyediakan layanan bus reguler yang menghubungkan berbagai lokasi penting di dalam kota, memfasilitasi mobilitas penduduk setempat serta pengunjung. Dengan jadwal yang teratur, TRANS BUS MADIUN memberikan alternatif transportasi yang handal dan terjangkau bagi masyarakat. Dengan demikian, mereka berperan penting dalam mendukung konektivitas dan aksesibilitas kota Madiun.</p>
+                                <p>Merupakan salah satu sistem transportasi publik yang beroperasi di Kabupaten Madiun, Jawa Timur. Mereka menyediakan layanan bus reguler yang menghubungkan berbagai lokasi penting di dalam daerah Kabupaten Madiun, memfasilitasi mobilitas siswa setempat. Dengan jadwal yang teratur, TRANS BUS MADIUN memberikan alternatif transportasi yang handal dan terjangkau bagi masyarakat. Dengan demikian, mereka berperan penting dalam mendukung konektivitas dan aksesibilitas Kabupaten Madiun.</p>
                                 <a href="about.php" class="btn btn-warning">View More <iconify-icon icon="ion:arrow-forward-circle-outline"></iconify-icon></a>
                             </div>
                         </div>
@@ -432,7 +432,7 @@
 <div class="container__footer">
     <div class="box__footer">
         <div class="terms">
-            <p>Trans Madiun Merupakan salah satu sistem transportasi publik yang beroperasi di kota Madiun, Jawa Timur.</p>
+            <p>Trans Madiun Merupakan salah satu sistem transportasi publik yang beroperasi di Kabupaten Madiun, Jawa Timur.</p>
       </div>
     </div>
     <div class="box__footer">
