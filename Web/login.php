@@ -42,30 +42,30 @@ $background_image = "assets/images/sec_jadwal.png";
   <div class="login-box-body">
     <p class="login-box-msg">Sign in to start your session</p>
 
-    <form action="index.html" method="post">
+    <form action="proseslog.php" method="post">
       <div class="form-group has-feedback">
-        <input type="Text" class="form-control" placeholder="Name">
+        <input type="Text" name="nama" class="form-control"  placeholder="Name">
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="Email">
+        <input type="email" name="email" class="form-control"  placeholder="Email">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password">
+        <input type="password" name="pass_user" class="form-control"  placeholder="Password">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">
         
         <!-- /.col -->
         <div class="col-xs-4">
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+          <button type="submit" name="login" class="btn btn-primary btn-block btn-flat">Sign In</button>
         </div>
         <!-- /.col -->
       </div>
     </form>  
 
-    <a href="forgot.html">I forgot my password</a><br>
+    <a href="forgot.php">I forgot my password</a><br>
     <body style="background-color: #E8CD19;">
   </div>
   <!-- /.login-box-body -->
