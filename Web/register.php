@@ -6,7 +6,10 @@ $background_image = "assets/images/sec_jadwal.png";
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Log in</title>
+  <title>Register</title>
+   <!--logo title-->
+   <link rel="icon" href="assets/images/logo.png" type="image/x-icon-dark">
+   
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -38,31 +41,31 @@ $background_image = "assets/images/sec_jadwal.png";
   </div>
   <!-- /.login-logo -->
   <div class="register-box-body">
-    <p class="login-box-msg">Belum mamiliki akun, Daftar Sekarang</p>
+    <p class="login-box-msg">Register a new membership</p>
 
-    <form action="index.html" method="post">
+    <form action="prosesregis.php" method="post">
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="NISN">
+        <input type="text" name="nisn" class="form-control" placeholder="NISN">
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="Email">
+        <input type="email" name="email" class="form-control" placeholder="Email">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="No Handphone">
+        <input type="text" name="no_hp" class="form-control" placeholder="No Handphone">
         <span class="glyphicon glyphicon-phone form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Nama Lengkap">
+        <input type="text" class="form-control" name="nama" placeholder="Nama Lengkap">
         <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="date" class="form-control" placeholder="Tanggal lahir" name="tanggal_lahir">
+        <input type="date" class="form-control" name="tgl_lahir" placeholder="Tanggal lahir" name="tanggal_lahir">
         <span class="glyphicon glyphicon-calendar form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <select class="form-control" name="jenis_kelamin">
+        <select class="form-control" name="jk">
           <option value=""> Pilih Jenis Kelamin </option>
           <option value="Laki-laki">Laki-laki</option>
           <option value="Perempuan">Perempuan</option>
@@ -70,11 +73,11 @@ $background_image = "assets/images/sec_jadwal.png";
           <span class="glyphicon glyphicon-user form-control-feedback"></span>
         </div>
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Asal Sekolah">
+        <input type="text" class="form-control" name= "sekolah" placeholder="Asal Sekolah">
         <span class="glyphicon glyphicon-education form-control-feedback"></span>
       </div>   
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password">
+        <input type="password" class="form-control" name="pass_user" placeholder="Password">
         <span class="glyphicon glyphicon-phone form-control-feedback"></span>
       </div>
       <div class="row">
@@ -90,12 +93,17 @@ $background_image = "assets/images/sec_jadwal.png";
           <button type="submit" class="btn btn-primary btn-block btn-flat">Register</button>
         </div>
         <!-- /.col -->
-      </div>
+        </div>
     </form>
+
+    <a href="login.php" class="text-center">I already have a membership</a>
   </div>
   <!-- /.login-box-body -->
 </div>
 <!-- /.login-box -->
+
+
+
 
 <script src="assets/js/jquery.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
