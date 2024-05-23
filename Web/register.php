@@ -84,13 +84,13 @@ $background_image = "assets/images/sec_jadwal.png";
         <div class="col-xs-8">
           <div class="checkbox icheck">
             <label>
-              <input type="checkbox"> Dengan mendaftar, saya setuju dengan <a href="#">Syarat dan ketentuan</a>
+              <input type="checkbox"> Dengan mendaftar, saya setuju dengan <a href="syarat.php">Syarat dan ketentuan</a>
             </label>
           </div>
         </div>
         <!-- /.col -->
         <div class="col-xs-4">
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Register</button>
+          <button type="submit" name="register" class="btn btn-primary btn-block btn-flat">Register</button>
         </div>
         <!-- /.col -->
         </div>
