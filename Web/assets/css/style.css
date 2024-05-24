@@ -83,3 +83,23 @@ body{
 .banner-fluid{
     background: url(/aset/sec_jadwal.png);
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Logo link styles */
+.logo {
+    text-decoration: none;
+}
+/* Profile photo styles */
+.profile-photo {
+    width: 150px;      /* Set the desired width */
+    height: 150px;     /* Set the desired height */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the entire container */
+    border: 3px solid #000; /* Optional: Add border to the image */
+}
